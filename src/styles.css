@@ -8,11 +8,7 @@
 }
 
 body{
-  background:-webkit-repeating-radial-gradient(ellipse farthest-corner at bottom left, #734dff 0%, #c7adad 10%, #6d6db6 50%);
-background:-o-repeating-radial-gradient(ellipse farthest-corner at bottom left, #734dff 0%, #c7adad 10%, #6d6db6 50%);
-background:-moz-repeating-radial-gradient(ellipse farthest-corner at bottom left, #734dff 0%, #c7adad 10%, #6d6db6 50%);
-background:repeating-radial-gradient(ellipse farthest-corner at bottom left, #734dff 0%, #c7adad 10%, #6d6db6 50%);
-
+background-color: #040023 !important ;
   /* background: radial-gradient(ellipse at 50% 50%, #403d51, #6f718b 100%) !important; */
   min-height: 60vw !important;
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #007bff;
+    background-color: #040023 ;
 }
 
 .navbar-brand {
@@ -16,9 +16,10 @@ body {
 }
 
 .welSect {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../../assets/homeWel-bg.avif') no-repeat center center/cover;
+    background-image: url(https://img.freepik.com/premium-photo/photo-portrait-smiling-young-businessman-checking-his-phone-elevator_763111-319241.jpg?w=740);
     color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px 0;
     height: 70vh;
 }
@@ -43,7 +44,7 @@ body {
 }
 
 #easyShareService h2 {
-    color: #007bff;
+    color: #040023 ;
     font-size: 2.5rem;
     margin-bottom: 40px;
 }
@@ -56,9 +57,15 @@ body {
 #chooseUs img {
     width: 80px;
 }
+.btn-color{
+   background-color:#040023; 
+}
+.btn-outline{
+    border: 1px solid #040023 ;
+}
 
 #easysharecontact {
-    background-color: #007bff;
+    background-color: #040023 ;
     color: #ffffff;
     padding: 50px 0;
 }

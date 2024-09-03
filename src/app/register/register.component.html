@@ -1,4 +1,4 @@
-<div class="main_div m-auto col-md-5 body">
+<div class="main_div m-auto col-md-5 ">
   <div class="title">Register</div>
   <p class="text-center">Welcome to EasyShare Platform</p>
   <form [formGroup]="ngForm" (ngSubmit)="onSubmit()">
@@ -376,7 +376,7 @@
       <small>Agreement is required</small>
     </div>
     <div class="input_box">
-      <input type="submit" value="Register" [disabled]="!ngForm.valid" class="btn btn-primary">
+      <input type="submit" value="Register" [disabled]="!ngForm.valid" class="btn text-light" style="background-color: #040023 ;">
     </div>
     <div class="sign_up">
       Already a member? <a routerLink="/login">Login now</a>
